@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo element</title>
+    <style>
+        p:first-child{
+            color: blue;
+        }
+        p:last-child{
+            color: rgb(0, 255, 149);
+        }
+        
+        p:only-child{
+            color: rgb(255, 0, 212);
+        }
+        li:nth-child(2){
+            background-color: aqua;
+            color: azure;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is first paragraph inside div tag.</p>
+    <p>This is Second paragraph inside div tag.</p>
+    <p>This is last paragraph inside Body tag.</p>
+    </div>
+
+    <div>
+        <p>This is first paragraph inside div tag.</p>
+    <p>This is Second paragraph inside div tag.</p>
+    <p>This is last paragraph inside Body tag.</p>
+    </div>
+
+    <div>
+        <p>This is only paragraph inside div tag.</p>
+    </div>
+
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+    
+</body>
+</html>

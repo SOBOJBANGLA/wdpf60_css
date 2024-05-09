@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+#wrapper{border: 1px solid gray;
+    width: 1050px;
+    
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     background-color: rgb(14, 14, 255);
+     height: 150px;
+}
+.logo{
+    background-image: url(../image/logo-removebg-preview.png);
+    width: 70px;
+    height: 73px;
+
+}
+.brand{
+    color: white;
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    
+    
+ }
+ .navbar div{margin: 10px;
+padding: 5px;
+color: white;
+}
+.navbar div a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{background-color: rgb(91, 91, 210);
+padding: 15px;}
+
+
+.container{
+    display: flex;
+    
+}
+.leftmenu{
+    width: 20%;
+    padding: 15px;
+    line-height: 30px;
+    border-right: 1px solid;
+    height: 600px;
+    background-color: rgb(255, 249, 237);
+    
+
+}
+.leftmenu a{
+    text-decoration: none;
+    color: black;
+}
+.content{width: 80%;
+    padding: 15px;
+    background-color: white;
+    margin-left: 3px;
+}
+.footer{
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(14, 14, 255);
+    color: white;
+}
+
